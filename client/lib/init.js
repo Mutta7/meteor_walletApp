@@ -3,7 +3,7 @@ web3 = new Web3();
 
 // RPCプロバイダを設定
 if(!web3.currentProvider)
-    webs3.setProvider(new web3.providers.HttpsProvider("http://localhost:8545"));
+    web3.setProvider(new web3.providers.HttpProvider("http://localhost:8545"));
 
 // EthAccounts 初期化
 EthAccounts.init();
